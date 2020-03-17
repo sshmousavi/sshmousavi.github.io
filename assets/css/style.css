@@ -85,7 +85,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   background-size: cover;
   position: relative;
   margin-top: -80px;
-  z-index: 8;
+  z-index: 9;
   /* countdown */
 }
 
