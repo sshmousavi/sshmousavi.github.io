@@ -81,15 +81,19 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/bg.jpg") top center;
   background-size: cover;
   position: relative;
   margin-top: -80px;
   z-index: 9;
+  /* Add the blur effect */
+  filter: blur(1px);
+  -webkit-filter: blur(1px);
   /* countdown */
 }
 
 #hero .hero-container {
+    color: black;
   position: absolute;
   bottom: 0;
   top: 0;
